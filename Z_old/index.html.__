@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles-menu.css">
+  <link rel="stylesheet" href="styles-patroni.css">
+  <link rel="stylesheet" href="styles-przyciski.css">
+  <link rel="stylesheet" href="styles-footer.css">
+  <title>Puchar Topora</title>
+  <style>
+    header {
+      position: fixed; 
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      text-align: center;
+      z-index: 1000;
+    }
+    body {
+      margin: 0;
+      margin-top: 350px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; 
+      
+      /* background-image: linear-gradient(to right, #162ba4, #3498db, #162ba4); */
+      background-image: url(grafiki/gory-4.png), linear-gradient(to right, rgb(37, 45, 92), rgb(69, 79, 148), rgb(37, 45, 92));
+      background-repeat: no-repeat, no-repeat;
+      background-position: 
+      bottom,
+      100%;
+    }
+
+    .main-container {
+      /* margin-bottom: 200px;  */
+      position: relative; 
+      padding: 20px;
+      background: rgba(244, 228, 228, 0.532); /* main divs color */
+      border-radius: 20px;
+      backdrop-filter: blur(10px); 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+      width: 900px;
+      height: 1200px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      margin-right: 30px;
+    }
+  </style>
+
+</head>
+<body>
+  <header id="menuContainer">
+    <div id="logo-banner">
+
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">START</a></li>
+            <li><a href="opis/Opis.html">OPIS</a></li>
+            <li><a href="">HISTORIA</a></li>
+            <li><a href="live/Live.php">LIVE🔴</a></li>
+            <li><a href="">GALERIA ZDJĘĆ</a></li>
+            <li><a href="">KONTAKT</a></li>
+        </ul>
+    </nav>
+  </header> 
+
+  <div class="main-container">
+    
+    
+    <div id="licznik-tytul">
+      <h1>Do Pucharu Topora zostało:</h1>
+      <div id="licznik">
+        <script src="licznik.js"></script>
+      </div>
+    </div>
+    <h1>Czy jesteś gotowy?</h1>
+
+    <div class="przyciski">
+      <button class="przycisk" id="przyciskTak" >Tak!</button>
+      <button class="przycisk" id="przyciskNie">Nie...</button>
+      
+      <script>
+             const yesButton = document.querySelector('#przyciskTak');
+             const noButton = document.querySelector('#przyciskNie');
+             
+             const moveNoButton = () => {
+               var x = Math.random() * (window.innerWidth - przyciskNie.offsetWidth);
+               var y = Math.random() * (window.innerHeight - przyciskNie.offsetHeight);
+             
+               przyciskNie.style.position = 'absolute';
+               przyciskNie.style.left = `${x}px`;
+               przyciskNie.style.top = `${y}px`;
+             }
+             
+             przyciskTak.addEventListener('click', () => {
+               window.location.assign('tak.html');
+             })
+             
+             przyciskNie.addEventListener('click', moveNoButton);
+             przyciskNie.addEventListener('mouseenter', moveNoButton);                       
+
+       </script>
+  </div>
+
+  <div id="patroni">
+    <h2>Patroni medialni:</h2>
+    <img src="grafiki/stalkant.png" alt="Stalkant">
+    <img src="grafiki/apresski.png" alt="Apres Ski">
+    <h2>Sponsorzy:</h2>
+    <img src="grafiki/gigant.png" alt="Gigant Zakopane">
+    <img src="grafiki/audu.png" alt="Audu">
+    <img src="grafiki/dubeltówka.png" alt="Dubeltówka Czarna">
+    <img src="grafiki/redboll.png" alt="Red Bóll">
+    <img src="grafiki/FUS.png" alt="FUS">
+    <img src="grafiki/raceteam.png" alt="JuluskiRaceTeam">
+  </div>
+
+  </div>
+
+  <footer>
+    <div id="content">
+      <p>Znajdziesz nas też na:</p> 
+
+      <div id="icons">
+    <a href="https://www.facebook.com/events/2118367485198317" target="_blank">
+      <img src="fb-logo.png" alt="Facebook">
+    </a>
+
+    <a href="https://open.spotify.com/playlist/68VCOiysbfT2j2nJzS2ZqZ?si=c3cb8e779be142c9" target="_blank">
+      <img src="spotify-logo.png" alt="Spotify">
+    </a>
+
+    <a href="https://www.instagram.com/puchartopora/" target="_blank">
+      <img src="ig-logo.png" alt="Instagram">
+    </a>
+       </div>
+      </div>
+
+  </footer>
+</body>
+</html>
