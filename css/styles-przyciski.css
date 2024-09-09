@@ -1,0 +1,57 @@
+.przyciski {
+    display: flex;
+    justify-content: center;
+}
+
+.przycisk {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px; /* Zwiększenie paddingu */
+    font-size: 28px; /* Zwiększenie rozmiaru tekstu w przycisku */
+    cursor: pointer;
+    border: 2px solid #8287c9; /* Dodanie obwódki */
+    border-radius: 10px; /* Zwiększenie zaokrąglenia */
+    margin: 0 10px; /* Dodanie odstępu między przyciskami */
+    transition: background-color 0.3s; /* Dodanie płynnego przejścia koloru */
+}
+
+.przycisk:hover {
+    background-color: #555;
+}
+
+
+.przyciski-plec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+  }
+
+  .przyciski-przejazdy .przycisk-run {
+    border: 1px solid #c8e8e9;
+    background-color: #3955a3;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /* float: left; */
+}
+
+.przyciski-przejazdy {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:  768px) {
+    .przyciski-przejazdy {
+        display: flex;
+        justify-content: flex-start;
+        overflow: scroll;
+    }
+    .przycisk{
+        font-size: 24px;
+        padding: 8px 24px;
+    }
+}

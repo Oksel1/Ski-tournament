@@ -1,0 +1,40 @@
+html {
+
+}
+
+body {
+    /* margin: 5% 2%; */
+    padding: 1% 2%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh;  */
+    /* background-image: linear-gradient(to right, #162ba4, #3498db, #162ba4); */
+}
+
+header, footer, #left-mid, #main-down, #main-up {
+    /* position: fixed;  */
+    /* top: 0; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* width: 100%; */
+    
+    /* z-index: 1000; */
+    padding: 2% 2%;
+    /* min-height: 200px; */
+    background-color: rgba(244, 228, 228, 0.5);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    border: 2px solid;
+    border-color: black;
+}
+
+#middle {
+  display: flex;
+  flex-direction: row;
+} 
+
+/* vertical menu styles */
+@media (max-width: 600px) { 
+
+}

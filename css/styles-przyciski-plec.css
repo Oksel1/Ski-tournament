@@ -1,0 +1,112 @@
+.przyciski-plec {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.przycisk {
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #kobiety:hover {
+    background-color: palevioletred;
+  }
+
+  #mezczyzni:hover {
+    background-color:rgb(30, 139, 202);
+  }  
+
+  
+
+  /* .przycisk-total {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(217, 221, 247); 
+    font-size: 18px;
+  } 
+  
+  
+  .przyciski-przejazdy {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(69, 79, 148);
+    padding: 10px 0;
+  }
+  
+  .przycisk-run {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(217, 221, 247);
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .przycisk-run:hover {
+    background-color: #f2f2f2;
+  } */
+
+  .przycisk-total {
+    text-align: center;
+  }
+  
+  #total {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(217, 221, 247);
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #total:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .przyciski-przejazdy {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(69, 79, 148);
+    padding: 10px 0;
+    margin-bottom: 5%; 
+  }
+  
+  .przycisk-run {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(217, 221, 247);
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .przycisk-run:hover {
+    background-color: #f2f2f2;
+  }
+
+
+
+  .przyciski-przejazdy .przycisk-run {
+    border: 1px solid #c8e8e9;
+    background-color: #3955a3;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /* float: left; */
+}

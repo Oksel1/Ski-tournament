@@ -1,0 +1,233 @@
+* {
+   box-sizing: border-box;
+   font-family: Times, Arial;
+}
+
+body {
+   /* width: 80vw; */
+   /* margin-top: 1%; */
+   padding: 0 10%;  
+   font-size: 100%;
+   font-size: 1.1em;
+   
+}
+
+#login {
+   width:30%;
+   border:1px solid #ddd;
+   border-radius:4px;
+   margin: 5% 10%;
+   /* text-align:center; */
+   padding: 2% 5%;
+   line-height:150%;
+   font-size:1.1em;
+   background-color:#eee;
+}
+#login p {
+   padding: 5% 0 0 0;
+   line-height:130%;
+   font-size:0.8em;
+}
+form > input, form > select {
+   display:block;
+   line-height:200%;
+   font-size:1em;
+   width: 100%;
+}
+
+#dodaj {
+   display:none;
+   width:50%;
+}
+.button {
+   margin-top:10px;
+   background-color:#048; 
+   padding:5px 90px; 
+   color:#fff; 
+   text-align:center; 
+   border:1px solid #048; 
+   border-radius:4px;
+   font-size:1em;
+}
+
+.button:hover {
+   background-color:#fff; 
+   color:#048; 
+}
+
+#naglowek{
+	/* background: url("nastawy_logo.png") no-repeat left center local; */
+	/* background-size: cover; */
+	width:100%;
+	height: auto;
+	vertical-align:top;
+	background-color:#fff;
+	text-align:center;
+}
+
+#naglowek h1 {
+	color:#f00;
+	margin:0px 20px;
+	font-size:150px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:200%;
+}
+
+#srodek{
+   min-height:500px;
+   /* background-color:#f2f2f2;   */
+}
+
+#lmenu {
+	width:15%;
+   padding:1% 1%;
+	display:inline-block;
+   display:float;
+	text-align:center;
+   
+}
+
+
+
+#status {
+	text-align:left;
+   color:#048;
+   line-height:150%;
+}
+
+#panel{
+	width:83%;
+	color:#048;
+	display:inline-block;
+   display:float;
+   float: right;
+   padding:1% 1%;
+   line-height:120%;
+	/* margin:auto auto; */
+	vertical-align:top;
+   
+}
+
+#panel > h1 {
+	font-size:1.4em;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:200%;
+}
+
+
+#stopka {
+	clear:both;
+   padding: 0.5% 3%;
+	background-color:#048; 
+	height:auto;
+	color:#FFF;
+	line-height:120%;
+}
+
+/* #panel > table { */
+   /* border:2px solid #000; */
+   /* table-layout:auto; */
+/* } */
+
+/* #panel table tbody tr td { */
+   /* border:1px solid #000; */
+   /* text-align:left; */
+   /* padding:5px 40px; */
+/* } */
+
+#menu {
+   list-style-type:none; 
+   margin:0; 
+   padding:0; 
+   width:200px;
+}
+
+#menu li {
+   margin-top:5px;
+}
+
+#menu li a {
+   text-decoration:none; 
+   display:block; 
+   background-color:#048; 
+   padding:10px; 
+   color:#fff; 
+   text-align:center; 
+   border:1px solid #048; 
+   border-radius:4px;
+}
+
+#menu li a:hover {
+   color:#048; 
+   background-color:#fff;
+}
+
+table {
+   /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+   border-collapse: collapse;
+   width: auto;
+}
+
+td, th {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+th:nth-last-child(1), th:nth-last-child(2),
+td:nth-last-child(1), td:nth-last-child(2) {
+   /* background-color: #fff; */
+   /* border:none; */
+   /* padding:0; */
+}
+
+tr:nth-child(even) {
+   background-color: #eee;
+}
+
+tr:hover {
+   background-color: #048;
+   color: #fff;
+}
+
+th {
+ padding-top: 12px;
+ padding-bottom: 12px;
+ text-align: left;
+ background-color: #048;
+ color: white;
+}
+
+caption {
+   font-size: 15pt;
+   font-weight: bold;
+   padding: 5pt;
+}
+
+td>a {
+   display:inline-table;
+   width:100%;
+   height:100%;
+   text-decoration:none;
+   color:inherit;
+   /* margin-top:10px; */
+   /* background-color:#048; */
+   /* padding:5px 90px;  */
+   /* color:#fff;  */
+   text-align:center; 
+   
+   /* border-radius:4px; */
+}
+
+td>a:hover {
+   color:inherit;
+   /* background-color:#04f; */
+   color:#ff0;
+}
+
+td>a:active {
+   color:inherit;
+   background-color:#fff;   
+   color:#048;   
+}

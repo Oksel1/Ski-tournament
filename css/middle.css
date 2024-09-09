@@ -1,0 +1,314 @@
+
+
+#middle {
+  /* margin-bottom: 200px;  */
+  /* position: relative;  */
+  /* padding: 20px; */
+  /* background: rgba(244, 228, 228, 0.532);  */
+  /* border-radius: 20px; */
+  /* backdrop-filter: blur(10px);  */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  */
+  /* width: 900px; */
+  min-height: 600px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+
+
+  /* margin-right: 30px; */
+}
+
+
+#main {
+    /* width: 350px; */
+    /* height: 100%; */
+    padding: 1%;
+    background: rgba(244, 228, 228, 0.532); /* main divs color */
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 0 0.5% 0 0;
+
+    /* position: absolute; */
+    /* left: 940px; /* position the div to the right of the .main-container div */
+    /* top: 0; */
+  }
+
+#koledzy {
+
+    text-align: right;
+
+  }
+
+#koledzy img {
+
+    display: inline-block;
+    margin-top: 15%;
+
+  }
+
+
+#patroni {
+    /* width: 350px; */
+    /* height: 100%; */
+    /* padding: 20px; */
+
+    background: rgba(244, 228, 228, 0.532); /* main divs color */
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
+    margin-bottom: 8px;
+    /* margin-left: 20px; */
+
+    /* position: absolute; */
+    /* left: 940px; /* position the div to the right of the .main-container div */
+    /* top: 0; */
+  }
+.sponsors-elements{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#patroni img {
+    width:80%;
+    padding: 15%;
+/* height: 120px; */
+/* margin: 5px; */
+}
+
+
+
+  
+  #content {
+      /* margin-top: 1500px; */
+      /* position: absolute; */
+      background: rgba(244, 228, 228, 0.532);
+      border-radius: 16px;
+      backdrop-filter: blur(10px); 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+      width: 100%;
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      /* align-items: center;  */
+      padding: 8px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      /* width: 30%; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* align-items: center; */
+  }
+
+  #content p {
+
+    /*justify-content: left;*/
+    /*text-align: left;*/
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      line-height: normal;
+      text-indent: unset;
+  }
+  
+  #icons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+  }
+
+  #icons img {
+    height: 35px;
+    width: 35px;
+    margin-left: 16px;
+  }
+ 
+#btn-k.active {
+    background-color: rgb(237, 150, 221);
+}
+
+#btn-m.active {
+    background-color: rgb(82, 60, 255);
+}
+
+.przycisk-run.active {
+    background-color: rgb(52, 52, 94) !important;
+    color: white;
+}
+
+/* edit */
+
+p {
+  text-align: justify;
+  color: #121111;
+  font-size: 1.2rem;
+  line-height: 1.625;
+  text-indent: 5%;
+  margin: 2% 8%;
+}
+
+h1, h2 {
+  font-size: 1.8rem;
+  margin: 2% 0;
+  text-align: center;
+}
+.contactText{
+    margin: 2% 8%;
+
+}
+.contactTextP{
+    text-indent: 0;
+}
+.rules {
+  list-style: decimal;
+  margin: .5% 10%;
+  font-size: 1.2rem;
+  line-height: 1.625;
+}
+
+.link-kontakt {
+  color: #000000; 
+  text-decoration: none; 
+  font-weight: normal; 
+}
+
+
+.link-kontakt:hover {
+  color: #7554c6; 
+  text-decoration: underline; 
+}
+
+
+.link-kontakt:visited {
+  color: #777; 
+}
+
+
+.link-kontakt:active {
+  color: #111;
+}
+
+img.zawody {
+  width: 85%;
+  border-radius: 8px;
+  /*margin: 2%;*/
+}
+
+/* DO SPRAWDZENIA CZY DZIAŁA 16.06.24 R. */
+#tabele > p  {
+  text-indent: 5%;
+  margin: 2% 15%;
+}
+
+#statystyki-k #statystyki-m p,
+#statystyki-k #statystyki-k p {
+  text-indent: 5%;
+  margin: 2% 15%;
+}
+ /* dotąd */
+
+
+ .acr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+  }
+
+.akredytacja {
+  max-width: 80%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.akredytacja:hover {
+  transform: scale(1.05);
+}
+.start-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-main{
+    width:60%;
+    margin: 16px 0;
+}
+@media (max-width: 768px) {
+    #main {
+        width: 96vw;
+        padding: 1%;
+        background: rgba(244, 228, 228, 0.532);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin: 0 0.5% 0 0;
+    }
+
+    #middle {
+        flex-direction: column;
+        padding: 8px;
+        gap: 8px;
+
+    }
+    #patroni{
+        width: 96vw;
+    }
+
+    #patroni img {
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+    }
+    .sponsors-elements{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 8px;
+
+    }
+    .footer-main{
+        width:100%;
+        padding: 8px;
+        margin: 0;
+    }
+
+    #content {
+        background: rgba(244, 228, 228, 0.532);
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        padding: 8px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1925px) {
+    #main {
+        width: 40vw;}
+
+}

@@ -1,0 +1,26 @@
+#patroni {
+    width: 350px;
+    height: 100%;
+    padding: 20px;
+    background: rgba(244, 228, 228, 0.532); /* main divs color */
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+
+    position: absolute;
+    left: 940px; /* position the div to the right of the .main-container div */
+    top: 0;
+  }
+
+  #patroni img {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+  }
